@@ -1,0 +1,21 @@
+Dependencies for Project 'template', Target 'template': (DO NOT MODIFY !)
+CompilerVersion: 6140000::V6.14::ARMCLANG
+F (.\src\main.c)(0x622DFA9F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./src -I ./Libraries/CMSIS/CM3/CoreSupport -I ./Libraries/STM32F10x_StdPeriph_Driver/inc-IC:/Users/minhn/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="531" -DSTM32F10X_MD-o ./objects/main.o -MD)
+I (C:\Users\minhn\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include\stm32f10x.h)(0x61AD876E)
+I (Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x61605444)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED619F4)
+I (C:\Users\minhn\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include\system_stm32f10x.h)(0x61AD876E)
+F (.\src\stm32f10x_conf.h)(0x61605441)()
+F (.\src\stm32f10x_it.c)(0x61605442)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./src -I ./Libraries/CMSIS/CM3/CoreSupport -I ./Libraries/STM32F10x_StdPeriph_Driver/inc-IC:/Users/minhn/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="531" -DSTM32F10X_MD-o ./objects/stm32f10x_it.o -MD)
+I (src\stm32f10x_it.h)(0x61605442)
+I (C:\Users\minhn\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include\stm32f10x.h)(0x61AD876E)
+I (Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x61605444)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED619F4)
+I (C:\Users\minhn\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include\system_stm32f10x.h)(0x61AD876E)
+F (.\src\stm32f10x_it.h)(0x61605442)()
+F (.\src\system_stm32f10x.c)(0x61605442)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./src -I ./Libraries/CMSIS/CM3/CoreSupport -I ./Libraries/STM32F10x_StdPeriph_Driver/inc-IC:/Users/minhn/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="531" -DSTM32F10X_MD-o ./objects/system_stm32f10x.o -MD)
+I (C:\Users\minhn\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include\stm32f10x.h)(0x61AD876E)
+I (Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x61605444)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED619F4)
+I (C:\Users\minhn\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include\system_stm32f10x.h)(0x61AD876E)
+F (.\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\startup\arm\startup_stm32f10x_md.s)(0x61605445)(--target=arm-arm-none-eabi -mcpu=cortex-m3 -masm=auto -c-gdwarf-3-IC:/Users/minhn/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-IC:/Keil_v5/ARM/CMSIS/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 531" -Wa,armasm,--pd,"STM32F10X_MD SETA 1"-o ./objects/startup_stm32f10x_md.o)
