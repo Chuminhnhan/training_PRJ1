@@ -6,10 +6,9 @@ void Delay(__IO uint32_t nCount);
 int main(){
 	while(1){
 		GPIO_SetBits(GPIOC, GPIO_Pin_13);
-		Delay(5000000);
+		Delay(50000000);
 		GPIO_ResetBits (GPIOC, GPIO_Pin_13);
-		Delay(5000000);
-		
+		Delay(50000000);
 	}
 	return 0;
 }

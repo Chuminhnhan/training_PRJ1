@@ -28,43 +28,6 @@ Project File Date:  03/15/2022
 *** Using Compiler 'V6.14', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
 Rebuild target 'blink'
 assembling startup_stm32f10x_md.s...
-src/system_stm32f10x.c(64): warning: In file included from...
-C:/Users/minhn/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(486): warning: In file included from...
-./Libraries/CMSIS/CM3/CoreSupport\core_cm3.h(1720): warning: function 'NVIC_SystemReset' could be declared with attribute 'noreturn' [-Wmissing-noreturn]
-{
-^
-src/system_stm32f10x.c(166): warning: no previous extern declaration for non-static variable 'AHBPrescTable' [-Wmissing-variable-declarations]
-__I uint8_t AHBPrescTable[16] = {0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 3, 4, 6, 7, 8, 9};
-            ^
-src/system_stm32f10x.c(166): note: declare 'static' if the variable is not intended to be used outside of this translation unit
-__I uint8_t AHBPrescTable[16] = {0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 3, 4, 6, 7, 8, 9};
-    ^
-2 warnings generated.
-compiling system_stm32f10x.c...
-src/main.c(1): warning: In file included from...
-C:/Users/minhn/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(486): warning: In file included from...
-./Libraries/CMSIS/CM3/CoreSupport\core_cm3.h(1720): warning: function 'NVIC_SystemReset' could be declared with attribute 'noreturn' [-Wmissing-noreturn]
-{
-^
-src/main.c(3): warning: this function declaration is not a prototype [-Wstrict-prototypes]
-void init();
-         ^
-          void
-src/main.c(14): warning: 'return' will never be executed [-Wunreachable-code-return]
-        return 0;
-               ^
-src/main.c(17): warning: no previous prototype for function 'init' [-Wmissing-prototypes]
-void init(){
-     ^
-src/main.c(3): note: this declaration is not a prototype; add 'void' to make it a prototype for a zero-parameter function
-void init();
-     ^
-          void
-src/main.c(29): warning: no newline at end of file [-Wnewline-eof]
-}
- ^
-5 warnings generated.
-compiling main.c...
 src/stm32f10x_it.c(24): warning: In file included from...
 ./src/stm32f10x_it.h(30): warning: In file included from...
 C:/Users/minhn/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(486): warning: In file included from...
@@ -85,6 +48,43 @@ src/stm32f10x_it.c(95): warning: function 'UsageFault_Handler' could be declared
 ^
 5 warnings generated.
 compiling stm32f10x_it.c...
+src/main.c(1): warning: In file included from...
+C:/Users/minhn/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(486): warning: In file included from...
+./Libraries/CMSIS/CM3/CoreSupport\core_cm3.h(1720): warning: function 'NVIC_SystemReset' could be declared with attribute 'noreturn' [-Wmissing-noreturn]
+{
+^
+src/main.c(3): warning: this function declaration is not a prototype [-Wstrict-prototypes]
+void init();
+         ^
+          void
+src/main.c(13): warning: 'return' will never be executed [-Wunreachable-code-return]
+        return 0;
+               ^
+src/main.c(16): warning: no previous prototype for function 'init' [-Wmissing-prototypes]
+void init(){
+     ^
+src/main.c(3): note: this declaration is not a prototype; add 'void' to make it a prototype for a zero-parameter function
+void init();
+     ^
+          void
+src/main.c(28): warning: no newline at end of file [-Wnewline-eof]
+}
+ ^
+5 warnings generated.
+compiling main.c...
+src/system_stm32f10x.c(64): warning: In file included from...
+C:/Users/minhn/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(486): warning: In file included from...
+./Libraries/CMSIS/CM3/CoreSupport\core_cm3.h(1720): warning: function 'NVIC_SystemReset' could be declared with attribute 'noreturn' [-Wmissing-noreturn]
+{
+^
+src/system_stm32f10x.c(166): warning: no previous extern declaration for non-static variable 'AHBPrescTable' [-Wmissing-variable-declarations]
+__I uint8_t AHBPrescTable[16] = {0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 3, 4, 6, 7, 8, 9};
+            ^
+src/system_stm32f10x.c(166): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+__I uint8_t AHBPrescTable[16] = {0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 3, 4, 6, 7, 8, 9};
+    ^
+2 warnings generated.
+compiling system_stm32f10x.c...
 Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_gpio.c(22): warning: In file included from...
 ./Libraries/STM32F10x_StdPeriph_Driver/inc\stm32f10x_gpio.h(31): warning: In file included from...
 C:/Users/minhn/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(486): warning: In file included from...
